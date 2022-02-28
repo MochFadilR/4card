@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(https://fonts.google.com/specimen/Poppins);
+}
+
+root {
+    font-size: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 90vw;
+    height: 45vh;
+    margin: auto;
+    align-items: center;
+}
+
+.card {
+    height: 20vh;
+    width: 20vw;
+}
